@@ -15,8 +15,8 @@ Given an image with size 256x256, 512x512, 1024x1024, auto generate following im
 | icon48.png | 48x48 |  chrome extension |
 | icon32.png | 32x32 | chrome extension |
 | icon16.png | 16x16 | chrome extension |
-| thumb_1.jpg | 256x192 | [free online h5 web game](https://www.arcadeh5.com) |
-| thumb_2.jpg | 256x256 | [free online html5 web game](https://www.arcadeh5.com) |
+| thumb_1.jpg | 256x192 | [online arcade h5 web game](https://www.arcadeh5.com) thumbnails |
+| thumb_2.jpg | 256x256 | free online [arcade html5 game](https://www.arcadeh5.com) thumbnails |
 
 ## TODO NEXT
 - compress images as less as possible
