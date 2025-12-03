@@ -123,7 +123,7 @@ export const processUpload = async (file: File): Promise<ProcessedImage[]> => {
     });
   }
 
-  // 2. Standard PNG Icons (128, 48, 32, 16)
+  // 2. Standard PNG Icons (128, 114, 48, 32, 16)
   const createPng = async (size: number, name: string) => {
     const cvs = document.createElement('canvas');
     cvs.width = size;
@@ -149,6 +149,7 @@ export const processUpload = async (file: File): Promise<ProcessedImage[]> => {
   };
 
   await createPng(128, 'icon128.png');
+  await createPng(114, 'icon114.png');
   await createPng(48, 'icon48.png');
   await createPng(32, 'icon32.png');
   await createPng(16, 'icon16.png');

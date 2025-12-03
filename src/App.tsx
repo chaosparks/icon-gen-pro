@@ -71,7 +71,7 @@ const App: React.FC = () => {
               <p className="text-base md:text-lg text-slate-400 leading-relaxed max-w-lg mx-auto">
                 Upload your master image (PNG, JPG, TGA) to automatically generate optimized favicons, app icons, and thumbnails.
                 <br/>
-                <span className="text-sm text-slate-500 mt-2 block font-mono">Recommended: 256x256 or 512x512</span>
+                <span className="text-sm text-slate-500 mt-2 block font-mono">Recommended: 256x256, 512x512, or 1024x1024</span>
               </p>
             </div>
             
