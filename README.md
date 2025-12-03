@@ -1,6 +1,8 @@
 # IconGen Pro
 Multi-format Asset Generator
 
+![icon-gen-pro-screen-shot](./img/icon-gen-pro-screen-shot-upload.png)
+
 ![icon-gen-pro-screen-shot](./img/icon-gen-pro-screen-shot.png)
 
 Given an image with size 256x256, 512x512, 1024x1024, auto generate following image locally
@@ -19,4 +21,4 @@ Given an image with size 256x256, 512x512, 1024x1024, auto generate following im
 ## TODO NEXT
 - compress images as less as possible
 - more image export support: webp, tif, and so on
-- cutomzie crop image online, too compliate may be!
+- cutomzie crop image online support, too compliate may be! This is a just small tool to crop out some small images!
