@@ -32,7 +32,7 @@ const ResultCard: React.FC<ResultCardProps> = ({ image }) => {
         
         <button 
           onClick={handleDownload}
-          className="absolute bottom-3 right-3 bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0"
+          className="absolute bottom-3 z-10 right-3 bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0"
           title="Download"
         >
           <Download size={18} />
